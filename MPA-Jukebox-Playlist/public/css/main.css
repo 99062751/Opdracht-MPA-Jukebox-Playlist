@@ -1,5 +1,14 @@
 body {
-  background-color: aqua;
+  background-color: white;
+}
+
+footer {
+  background-color: grey;
+  padding: 13px;
+}
+
+footer p {
+  color: pink;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -11,7 +11,7 @@
 
         <!-- Styles -->
         
-        <link rel="stylesheet" href="/public/css/main.css">
+        <link rel="stylesheet" href="/css/main.css">
         <style>
 
             
@@ -23,7 +23,7 @@
         @yield('content')
 
         <footer>
-            Copyright Playlist/Jukebox Sumant Jakhari
+            <p>Copyright Playlist/Jukebox Sumant Jakhari<p>
         </footer>
     </body>
 </html>

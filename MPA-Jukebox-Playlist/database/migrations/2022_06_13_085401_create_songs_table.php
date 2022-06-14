@@ -13,7 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('songs', function (Blueprint $table) {
+            $table->id("id");
+            $table->string("name");
+            $table->string("artist");
+            $table->string("duration");
+        });
     }
 
     /**
@@ -23,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('songs');
     }
 };
